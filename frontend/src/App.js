@@ -1,12 +1,11 @@
-import logo from './logo.svg';
+import React, {components} from 'react';
 import './App.css';
+import SignUpForm from './components/Signup';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello World!
-      </h1>
+      <SignUpForm />
     </div>
   );
 }
